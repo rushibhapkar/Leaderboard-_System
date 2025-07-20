@@ -1,0 +1,25 @@
+{
+  "name": "leaderboard-backend",
+  "version": "1.0.0",
+  "description": "Backend for leaderboard system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "update-browsers": "npx update-browserslist-db@latest && npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.8.3"
+  }
+}
